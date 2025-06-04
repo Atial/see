@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<addons><addon id="repository.see" name="See repo" version="1.1" provider-name="see">
+    <extension point="xbmc.addon.repository" name="See repo">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/see/repository.see/main/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/see/repository.see/main/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/see/repository.see/main/repo/zips/</datadir>
+        </dir>
+		<dir minversion="18.0.0" maxversion="18.9.0">
+            <info compressed="false">https://raw.githubusercontent.com/see/repository.see/main/leia/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/see/repository.see/main/leia/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/see/repository.see/main/leia/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>See repo</summary>
+        <description>la la la</description>
+        <disclaimer />
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon></addons>
